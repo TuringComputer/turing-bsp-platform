@@ -23,7 +23,6 @@
   <project remote="freescale" revision="jethro" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="jethro" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="jethro" name="Documentation" path="sources/Documentation"/>
-  <project remote="oss" revision="master" name="meta-browser" path="sources/meta-browser"/>
   <project remote="meta-qt5" name="meta-qt5" path="sources/meta-qt5" revision="jethro" />
   <project remote="turing" name="meta-turing" path="sources/meta-turing" revision="jethro" />
 
