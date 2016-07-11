@@ -15,9 +15,9 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir turing-bsp
 $: cd turing-bsp
-$: repo init -u https://github.com/TuringComputer/turing-bsp-platform -b jethro
+$: repo init -u https://github.com/TuringComputer/turing-bsp-platform -b krogoth
 $: repo sync
-$: repo start jethro --all
+$: repo start krogoth --all
 
 At the end of the commands you have every metadata you need to start work with.
 
