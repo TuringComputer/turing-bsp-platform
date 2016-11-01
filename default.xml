@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="jethro"/>
+  <default sync-j="4" revision="krogoth"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
@@ -23,7 +23,10 @@
   <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="krogoth" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
-  <project remote="meta-qt5" name="meta-qt5" path="sources/meta-qt5" revision="krogoth" />
-  <project remote="turing" name="meta-turing" path="sources/meta-turing" revision="krogoth" />
+  <project remote="meta-qt5" revision="krogoth" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="turing" revision="krogoth" name="meta-turing" path="sources/meta-turing"/>
+  <project remote="oss" revision="krogoth" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="yocto" revision="krogoth" name="meta-qt4" path="sources/meta-qt4"/>
+  <project remote="yocto" revision="bec66698046eb112df0be281e9d3e080e1c61cdb" name="meta-mono" path="sources/meta-mono"/>
 
 </manifest>
