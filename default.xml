@@ -9,6 +9,7 @@
   <remote fetch="https://github.com/TuringComputer" name="turing"/>
   <remote fetch="https://github.com/OSSystems" name="oss"/>
   <remote fetch="git://github.com/meta-qt5" name="meta-qt5"/>
+  <remote fetch="https://github.com/imyller" name="nodejs"/>
 
   <project remote="yocto" revision="krogoth" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="krogoth" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -28,5 +29,7 @@
   <project remote="oss" revision="krogoth" name="meta-browser" path="sources/meta-browser"/>
   <project remote="yocto" revision="krogoth" name="meta-qt4" path="sources/meta-qt4"/>
   <project remote="yocto" revision="bec66698046eb112df0be281e9d3e080e1c61cdb" name="meta-mono" path="sources/meta-mono"/>
+  <project remote="nodejs" revision="krogoth" name="meta-nodejs" path="sources/meta-nodejs"/>
+  <project remote="nodejs" revision="krogoth" name="meta-nodejs-contrib" path="sources/meta-nodejs-contrib"/>
 
 </manifest>
