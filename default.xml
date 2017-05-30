@@ -28,6 +28,7 @@
   <project remote="turing" revision="krogoth" name="meta-turing" path="sources/meta-turing"/>
   <project remote="oss" revision="krogoth" name="meta-browser" path="sources/meta-browser"/>
   <project remote="yocto" revision="krogoth" name="meta-qt4" path="sources/meta-qt4"/>
+  <project remote="yocto" revision="krogoth" name="meta-security" path="sources/meta-security"/>
   <project remote="yocto" revision="bec66698046eb112df0be281e9d3e080e1c61cdb" name="meta-mono" path="sources/meta-mono"/>
   <project remote="nodejs" revision="krogoth" name="meta-nodejs" path="sources/meta-nodejs"/>
   <project remote="nodejs" revision="krogoth" name="meta-nodejs-contrib" path="sources/meta-nodejs-contrib"/>
