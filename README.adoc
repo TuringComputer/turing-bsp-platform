@@ -24,6 +24,7 @@ At the end of the commands you have every metadata you need to start work with.
 To start a simple image build:
 
 [source,console]
+$: MACHINE=imx6x-turing-smart DISTRO=fslc-xwayland
 $: source ./setup-environment build
 $: bitbake turing-image-minimal
 
