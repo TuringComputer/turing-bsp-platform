@@ -21,8 +21,9 @@
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="morty" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="morty" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="yocto" revision="morty" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="freescale" revision="morty" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="morty" name="Documentation" path="sources/Documentation"/>
   <project remote="meta-qt5" revision="morty" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="turing" revision="morty" name="meta-turing" path="sources/meta-turing"/>
