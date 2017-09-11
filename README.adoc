@@ -15,9 +15,9 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir turing-bsp
 $: cd turing-bsp
-$: repo init -u https://github.com/TuringComputer/turing-bsp-platform -b jethro
+$: repo init -u https://github.com/TuringComputer/turing-bsp-platform -b morty
 $: repo sync
-$: repo start jethro --all
+$: repo start morty --all
 
 At the end of the commands you have every metadata you need to start work with.
 
@@ -26,12 +26,6 @@ To start a simple image build:
 [source,console]
 $: source ./setup-environment build
 $: bitbake turing-image-minimal
-
-For QT5 support:
-
-[source,console]
-$: source ./setup-environment build
-$: bitbake turing-image-qt5
 
 You can use any directory to host your build.
 
